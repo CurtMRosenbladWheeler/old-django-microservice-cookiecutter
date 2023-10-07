@@ -32,8 +32,8 @@ Here's the edited list of features that includes the specified additions for a D
 - Docker support using [docker-compose](https://github.com/docker/compose) for development and production (using [Traefik](https://traefik.io/) with [LetsEncrypt](https://letsencrypt.org/) support)
 - [Procfile](https://devcenter.heroku.com/articles/procfile) for deploying to Heroku
 - Instructions for deploying to [PythonAnywhere](https://www.pythonanywhere.com/)
-- Run tests with unittest or pytest
-- Customizable databases (PostgreSQL, MySQL, Redis, MongoDB)
+- Run tests with unit test or pytest
+- Customizable databases (PostgreSQL, MySQL, Redis, MongoDB, and Cassandra)
 - Works with cloud databases on AWS, GCP, and Azure
 - Designed to work with AWS, GCP, Azure services, and non-cloud systems. 
 - Default integration with [pre-commit](https://github.com/pre-commit/pre-commit) for identifying simple issues before submission to code review
