@@ -1,12 +1,7 @@
 # Django Microservice Cookiecutter
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=master)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amaster)
-[![Documentation Status](https://readthedocs.org/projects/cookiecutter-django/badge/?version=latest)](https://cookiecutter-django.readthedocs.io/en/latest/?badge=latest)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/cookiecutter/cookiecutter-django/master.svg)](https://results.pre-commit.ci/latest/github/cookiecutter/cookiecutter-django/master)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 
-[![Updates](https://pyup.io/repos/github/cookiecutter/cookiecutter-django/shield.svg)](https://pyup.io/repos/github/cookiecutter/cookiecutter-django/)
-[![Join our Discord](https://img.shields.io/badge/Discord-cookiecutter-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/uFXweDQc5a)
 [![Code Helpers Badge](https://www.codetriage.com/cookiecutter/cookiecutter-django/badges/users.svg)](https://www.codetriage.com/cookiecutter/cookiecutter-django)
 
 Powered by [Cookiecutter](https://github.com/cookiecutter/cookiecutter), Cookiecutter Django is a framework for jumpstarting
@@ -19,24 +14,28 @@ production-ready Django projects quickly.
 
 ## Features
 
+Here's the edited list of features that includes the specified additions for a Django 4.2-based microservice template:
+
 - For Django 4.2
 - Works with Python 3.12
 - Renders Django projects with 100% starting test coverage
 - Tailwind CSS v3
 - [12-Factor](https://12factor.net) based settings via [django-environ](https://github.com/joke2k/django-environ)
-- Secure by default. We believe in SSL.
+- Secures with SSL by default.
 - Optimized development and production settings
-- Registration via [django-allauth](https://github.com/pennersr/django-allauth)
-- Comes with custom user model ready to go
+- Microservice templates
+- Comes with enterprise-level authentication microservice
 - Optional basic ASGI setup for Websockets
 - Optional custom static build using Gulp or Webpack
-- Send emails via [Anymail](https://github.com/anymail/django-anymail) (using [Mailgun](http://www.mailgun.com/) by default or Amazon SES if AWS is selected cloud provider, but switchable)
-- Media storage using Amazon S3, Google Cloud Storage, Azure Storage or nginx
+- Send emails via [Anymail](https://github.com/anymail/django-anymail) (using [Mailgun](http://www.mailgun.com/) by default or Amazon SES if AWS is selected as the cloud provider, but switchable)
+- Media storage using Amazon S3, Google Cloud Storage, Azure Storage, or nginx
 - Docker support using [docker-compose](https://github.com/docker/compose) for development and production (using [Traefik](https://traefik.io/) with [LetsEncrypt](https://letsencrypt.org/) support)
 - [Procfile](https://devcenter.heroku.com/articles/procfile) for deploying to Heroku
 - Instructions for deploying to [PythonAnywhere](https://www.pythonanywhere.com/)
 - Run tests with unittest or pytest
-- Customizable PostgreSQL version
+- Customizable databases (PostgreSQL, MySQL, Redis, MongoDB)
+- Works with cloud databases on AWS, GCP, and Azure
+- Designed to work with AWS, GCP, Azure services, and non-cloud systems. 
 - Default integration with [pre-commit](https://github.com/pre-commit/pre-commit) for identifying simple issues before submission to code review
 
 ## Optional Integrations
