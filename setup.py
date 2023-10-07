@@ -16,7 +16,7 @@ setup(
     description=("A Cookiecutter template for creating production-ready " "Django projects quickly."),
     long_description=long_description,
     author="Daniel Roy Greenfeld",
-    author_email="pydanny@gmail.com",
+    author_email="curt.m.k.wheeler@icloud.com",
     url="https://github.com/cookiecutter/cookiecutter-django",
     packages=[],
     license="BSD",

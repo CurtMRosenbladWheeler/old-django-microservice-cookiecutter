@@ -17,8 +17,8 @@ Docker: Postgres authentication failed
 
 Examples of logs::
 
-    postgres_1      | 2018-06-07 19:11:23.963 UTC [81] FATAL:  password authentication failed for user "pydanny"
-    postgres_1      | 2018-06-07 19:11:23.963 UTC [81] DETAIL:  Password does not match for user "pydanny".
+    postgres_1      | 2018-06-07 19:11:23.963 UTC [81] FATAL:  password authentication failed for user "CurtMRosenbladWheeler"
+    postgres_1      | 2018-06-07 19:11:23.963 UTC [81] DETAIL:  Password does not match for user "CurtMRosenbladWheeler".
     postgres_1      | 	Connection matched pg_hba.conf line 95: "host all all all md5"
 
 If you recreate the project multiple times with the same name, Docker would preserve the volumes for the postgres container between projects. Here is what happens:
