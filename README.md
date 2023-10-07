@@ -20,9 +20,9 @@ production-ready Django projects quickly.
 ## Features
 
 - For Django 4.2
-- Works with Python 3.11
+- Works with Python 3.12
 - Renders Django projects with 100% starting test coverage
-- Twitter [Bootstrap](https://github.com/twbs/bootstrap) v5
+- Tailwind CSS v3
 - [12-Factor](https://12factor.net) based settings via [django-environ](https://github.com/joke2k/django-environ)
 - Secure by default. We believe in SSL.
 - Optimized development and production settings
@@ -67,17 +67,9 @@ Projects that provide financial support to the maintainers:
 
 ---
 
-<p align="center">
-  <a href="https://www.feldroy.com/products//two-scoops-of-django-3-x"><img src="https://cdn.shopify.com/s/files/1/0304/6901/products/Two-Scoops-of-Django-3-Alpha-Cover_540x_26507b15-e489-470b-8a97-02773dd498d1_1080x.jpg"></a>
-</p>
-
 Two Scoops of Django 3.x is the best ice cream-themed Django reference in the universe!
 
 ### PyUp
-
-<p align="center">
-  <a href="https://pyup.io/"><img src="https://pyup.io/static/images/logo.png"></a>
-</p>
 
 PyUp brings you automated security and dependency updates used by Google and other organizations. Free for open source projects!
 
