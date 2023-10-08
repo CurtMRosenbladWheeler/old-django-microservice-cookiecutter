@@ -43,8 +43,10 @@ pytest:
   image: python:3.11
   tags:
     - python
+  {%- if cookiecutter.database == 'postgresql' %}
   services:
-    - postgres:{{ cookiecutter.postgresql_version }}
+    - postgres: 16
+  {%- endif %}
   variables:
     DATABASE_URL: pgsql://$POSTGRES_USER:$POSTGRES_PASSWORD@postgres/$POSTGRES_DB
   before_script:
