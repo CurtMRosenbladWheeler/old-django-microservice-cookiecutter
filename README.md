@@ -1,6 +1,6 @@
 # Django Microservice Cookiecutter
 
-[![CI](https://github.com/CurtMRosenbladWheeler/django-microservice-cookiecutter/actions/workflows/ci.yml/badge.svg)](https://github.com/CurtMRosenblad/django-saas-template/actions/workflows/ci.yml) [![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+[![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 
 Powered by [Cookiecutter](https://github.com/CurtMRosenbladWheeler/django-microservice-cookiecutter), Cookiecutter Django is a framework for jumpstarting
 production-ready Django projects quickly.
